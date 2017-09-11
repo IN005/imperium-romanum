@@ -1,0 +1,13 @@
+focus_tree = {
+	id = roman_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = ROM
+			#always = no
+		}
+	}
+}

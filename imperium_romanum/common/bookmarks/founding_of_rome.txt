@@ -1,0 +1,36 @@
+bookmarks = {
+	bookmark = {	
+		name = "FOUNDING_OF_ROME_NAME"
+		desc = "FOUNDING_OF_ROME_DESC"
+		date = 0.1.1.12
+		picture = "GFX_select_date_0"
+		default_country = "ROM"
+		default = yes
+		
+		"SPA"={
+			history = "ROM_FOUNDING_OF_ROME_DESC"
+			ideology = fascism
+			ideas = {
+			}
+			focuses = {
+				}
+		}
+		"ROM"={
+			history = "ROM_FOUNDING_OF_ROME_DESC"
+			ideology = fascism
+			ideas = {
+			}
+			focuses = {
+				}
+		}
+		
+		"---"={
+			history = "OTHER_FOUNDING_OF_ROME_DESC"
+		}
+		
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}
