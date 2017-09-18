@@ -1,0 +1,155 @@
+﻿division_template = {
+	name = "Cohort"			# Infantry Division
+	# Note: also represents Guards, Fortress divisions
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	support = {
+	}
+}
+division_template = {
+	name = "Equites" 				# Cavalry Brigade
+	# Note: regiments within the brigade were battalion-sized units
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+	}
+	support = {
+	}
+}
+
+
+units = {
+	# Legio I
+	division = {
+		name = "Cohort I"
+		location = 9904
+		division_template = "Cohort"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		name = "Cohort II"
+		location = 9904
+		division_template = "Cohort"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		name = "Cohort III"
+		location = 9904
+		division_template = "Cohort"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		name = "Cohort IV"
+		location = 9904
+		division_template = "Cohort"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		name = "Cohort V"
+		location = 9904
+		division_template = "Cohort"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		name = "Cohort VI"
+		location = 9904
+		division_template = "Cohort"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		name = "Cohort VII"
+		location = 9904
+		division_template = "Cohort"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		name = "Cohort VIII"
+		location = 9904
+		division_template = "Cohort"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		name = "Cohort IX"
+		location = 9904
+		division_template = "Cohort"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		name = "Cohort X"
+		location = 9904
+		division_template = "Cohort"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+
+}
+
+
+### Starting Production ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "ROM"
+		}
+		requested_factories = 2
+		progress = 0.87
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "ROM"
+		}
+		requested_factories = 1
+		progress = 0.19
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = "ROM"
+		}
+		requested_factories = 1
+		progress = 0.24
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = light_tank_equipment_1
+			creator = "ROM" 
+		}
+		requested_factories = 1
+		progress = 0.4
+		efficiency = 100
+	}
+}

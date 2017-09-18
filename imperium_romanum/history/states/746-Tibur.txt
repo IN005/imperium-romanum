@@ -1,0 +1,33 @@
+state={
+	id=746
+	name="STATE_746"
+	manpower = 2781971
+	
+	state_category = town
+	
+	history=
+	{
+		owner = TIU
+		victory_points = { 11882 10 }
+		buildings = {
+			infrastructure = 8
+			air_base = 8
+			arms_factory = 1
+			industrial_complex = 4
+			11882 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = TIU
+		0.1.1 = {
+			buildings = {
+				arms_factory = 2
+				industrial_complex = 5
+			}
+		}
+	}
+	
+	provinces={
+		11882 
+	}
+}

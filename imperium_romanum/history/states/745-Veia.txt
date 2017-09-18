@@ -1,0 +1,34 @@
+state={
+	id=745
+	name="STATE_745"
+	manpower = 2781971
+	
+	state_category = town
+	
+	history=
+	{
+		owner = VEI
+		victory_points = { 6862 10 }
+		victory_points = { 11751 1 }
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			arms_factory = 1
+			industrial_complex = 2
+			11751 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = VEI
+		0.1.1 = {
+			buildings = {
+				arms_factory = 2
+				industrial_complex = 5
+			}
+		}
+	}
+	
+	provinces={
+		6862 11751
+	}
+}

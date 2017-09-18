@@ -1,0 +1,33 @@
+state={
+	id=750
+	name="STATE_750"
+	manpower = 2781971
+	
+	state_category = town
+	
+	history=
+	{
+		owner = BOV
+		victory_points = { 3923 10 }
+		buildings = {
+			infrastructure = 8
+			air_base = 8
+			arms_factory = 1
+			industrial_complex = 4
+			3923 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = BOV
+		0.1.1 = {
+			buildings = {
+				arms_factory = 2
+				industrial_complex = 5
+			}
+		}
+	}
+	
+	provinces={
+		3923 
+	}
+}
