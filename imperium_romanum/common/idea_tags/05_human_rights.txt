@@ -1,0 +1,14 @@
+idea_categories = {
+
+	human_rights = {
+		slot = birth_rate_laws
+		slot = child_labour_laws
+		slot = male_role_laws
+		slot = female_role_laws
+		slot = homosexual_laws
+		slot = mobilization_laws
+	
+		cost = 3000
+		removal_cost = -1
+	}
+}

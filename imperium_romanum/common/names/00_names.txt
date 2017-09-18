@@ -1,0 +1,121 @@
+﻿### Names generation for aces ###
+# Surnames can be male/female dependent or general. Fe. in Polish some surnames has different endings depending on the gender.
+# Names and Surnames are randomly picked and will sometimes repeat, but will never repeat in combinations for example there will never be generated another "John Smith".
+# Assigning the callsign is random - may be assigned or not. If we use the callsign, it will never be assigned to anyone again. Callsigns are not obligatory to script.
+# Picking up a gender is random, and is influenced by the amount of names scripted.
+
+default = {
+	male = {
+		names = { "John" "Bob" "Lucas" "Marcus" "Alexander" "Alex" "Peter" "Jonas" "Jim" "Johannes"}
+		surnames = { }
+		callsigns = { }
+	}
+	female = {
+		names = { "Juliette" "Anna" }
+		surnames = { }
+		callsigns = { "Queen Of The Sky" "The Red Princess" }
+	}
+	surnames = { "Smith" "Jones" "Taylor" "Brown" "Williams" "Wilson" "Evans" "Walker" "White" "Roberts" }
+	callsigns = { "Easy Kill" "The Lightning" "The Devil" "Grasshopper" "Handsome" "Moose" "Mouse" "Pebbles" "Sunshine" Demon}
+}
+
+###############################################################
+# The Majors
+###############################################################
+ROM = {
+	#### 185 Male Names
+	male = {
+		names = { 
+				Aelianus Aelius Aemilianus Aemilius Aetius Africanus Agrippa Ahenobarbus Albanus Albinus Albus Antonius Appius Aquila Aquilinus Atilius Augustinus Augustus
+				Aulus Aurelianus Aurelius Avilius Avitus Balbinus Balbus Blandinus Blandus Blasius Brutus Ceacilius Caelinus Caelius Caesar Caius Calvus Camillus Cassian
+				Cassianus Cassius Cato Celsus Cicero Claudius Cloelius Cnaeus Cornelius Crispinus Crispus Cyprianus Decimus Diocletianus Domitius Drusus Duilius Egnatius 
+				Ennius Fabianus Fabius Fabricus Faustinus  Faustus Felix Festus Flavianus Flavius Florus Fulvius Gaius Gallus Garmanus Glaucia Gnaeus Gordianus Gratianus
+				Hadrianus Herminius Hilarius Horatius Horatius Hortensius Ianurius Iovita Iulianus Iunius Iuvenalis Junarius Jovian Julius Junius Laelius Laurentius Livianus
+				Livus Longinus Loukios Lucanus Lucianus Lucilius Lucius Laucretius Manius Manluis Marcellinus Marcellus Marcianus Marcius Marcus Marianus Marinus Marius
+				Martialis Martinus Maxentius Maximianus Maximus Naevius Nero Nerva Nonus Octavianus Octavis Otho Ovidius Paulinus Paulus Petronius Plinius Pompeius Pompilius
+				Pontuis Porcius Priscus Publius Quintilianus Quintillus Quintinus Quintius Quintus Regulus Rufinus Rufus Sabinus Saturninus Scaevola Secundinus Secundus
+				Seneca Septimius Septimus Sergius Servius Serverianus Serverus Sextilius Sextus Silvanus Spurius Tacitus Tarquinius Tatianus Tatius Terentius Tertius Thracius
+				Tiberius Tiburtius Titanus Titus Traianus Tullius Valens Valentinianus Valentinus Valerianus Valerius Varianus Varius Vergilius Verginius Verginius Vespasianus
+				Vibianus Vibus Vinicus Vitus
+		}
+	}
+	#### 99 Female Names
+	female = {
+		names = { 
+				Aelia Aelina Aemilia Aemiliana Agrippa Agrippina Alba Albina Antonia Antonina Aquilina Augusta Agustina Aurelia Areliana Balbina Blandina Caecilia Caelia 
+				Caelina Camilla Cassia Claudia Cloelia Cornelia Decima Domitia Domitilla Drusa Drusilla Fabia Fabiana Fabiola Fabricia Fausta Faustina Flavia Floriana Fulvia
+				Germana Glaucia Gratiana Hadriana Herminia Hilaria Horatia Hortensia Iovita Iulia Iuliana Iunia Julia Juliana Junia Laelia Laurentia Laurentina Livia Liviana
+				Longina Lucia Luciana Lucilla Lucretia Marcella Marcellina Marcia Marciana Mariana Marina Martina Maxima Maximiliana Nona Octavia Paula Paulina Petronia
+				Pomponia Porcia Prisca Priscilla Quintina Rufina Sabina Saturnina Septima Severina Tacita Tatiana Tullia Valentia Valeria Valeriana Variana Verginia Vibiana
+				Verginia Vita
+		}
+	}
+	#### 245 Surnames 
+	surnames = {
+				Acidinus Acisculus Aemilianus Aeserninus Africanus Agelastus Ahala Albinus Albus Allobrogicus Ambustus Antias Arquetius Arquitius Arvina Asellio Asellus 
+				Asiagenus Asiaticus Asina Atratinus Atticus Augur Augustus Axilla Balbus Barbatus Barbula Blaesus Blasio Brocchus Brutus Bubulcus Buca Bucco Bursio Buteo 
+				Caecus Caepio Caesar Callaecus Callaicus Calussa Calvus Canina Capitolinus Casca Cato Catullus Caudex Caudinus Censorius Centho Cento Centumalus Cethegus 
+				Cicero Cincinnatus Cinna Claudianus Clineas Clodianus Corculum Corvinus Corvus Cossus Crassinus Crassus Crus Cruscellio Cunctator Damasippus Demetrias Denter 
+				Dives Dolabella Dorso Dorsuo Drusus Eburnus Esquilinus Falco Falto Felix Fidenas Flaccus Flamen Fulvianus Gaetulicus Gallaecus Gallus Geminus Geta Getha Glaber 
+				Glaucia Glicia Globulus Glycias Gracchanus Gracchus Gurges Hadrianus Helenus Hispallus Hispaniensis Hispanus Hortator Imbrex Imperiosus Inregillensis Isauricus 
+				Iullus Iulus Iuncus Iunianus Jullus Julus Juncus Junianus Labeo Lactuca Lactucinus Laeca Laevinus Lentinus Lentulus Lepidus Libo Licinianus Licinus Livianus 
+				Longus Lucullus Lupus Macatus Macedonicus Macer Maluginensis Mamercinus Mamercus Mamilianus Mammula Mancinus Manlianus Marcellinus Marcellus Maximus Mento 
+				Merenda Merula Messala Mocilla Mucianus Murena Musca Nasica Nero Nerva Niger Norbanus Numida Ocella Octavianus Orca Ovicula Paciacus Paciaecus Papus Paullus 
+				Paulus Pennus Pera Pictor Pitio Pollio Ponticus Poplicola Porcina Potitus Praeconinus Priscus Privernas Procillus Publicola Pulcher Pulex Pullus Regillensis 
+				Regillus Rufinus Rufus Rullianus Rullus Russus Rutilus Sabinus Sacerdos Salinator Salonianus Salutio Salvitto Sanga Sapiens Scaeva Scapula Scaurus Scipio 
+				Senator Serapio Sergianus Servilianus Sibylla Silanus Sisenna Sophus Soranus Spinther Stolo Strabo Structus Sulla Sura Sylla Tappo Tegula Torquatus Triarius 
+				Tucca Tuditanus Unimanus Uritinus Uticensis Varus Vatia Vergilianus Verrucosus Vestalis Vibulanus Virgilianus Volso Volusus Vopiscus Vulso
+	}
+	callsigns = { }
+}
+
+
+###############################################################
+# Germania
+###############################################################
+
+
+###############################################################
+# Gallica
+###############################################################
+
+
+###############################################################
+# Greek
+###############################################################
+
+
+###############################################################
+# Sarmatia
+###############################################################
+
+
+###############################################################
+# Scythae
+###############################################################
+
+
+###############################################################
+# Arabia
+###############################################################
+
+
+###############################################################
+# Asia
+###############################################################
+
+
+###############################################################
+# Africa
+###############################################################
+
+###############################################################
+# North America
+###############################################################
+
+
+
+###############################################################
+# South America
+###############################################################
+
