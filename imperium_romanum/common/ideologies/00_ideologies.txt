@@ -1,31 +1,24 @@
 ideologies = {
-	
-	gallicism = {
-	
+
+	celtism = {
+		
 		types = {
 			
-			conservatism = {
-			}
-		
-			liberalism = {
-			}
-		
-			socialism = {
+			celtic_religion = {
 			}
 		}
 		
 		dynamic_faction_names = {
 		}
 		
-		color = { 167 11 299}
+		color = { 242  205  94 }
 		
 		rules = {
-			can_declare_war_on_same_ideology = no
+			can_declare_war_on_same_ideology = yes
 			can_force_government = yes
-			can_send_volunteers = no
-			can_puppet = no
+			can_send_volunteers = yes
+			can_puppet = yes
 			can_lower_tension = yes
-			can_only_justify_war_on_threat_country = yes
 			can_guarantee_other_ideologies = yes
 		}
 		
@@ -44,87 +37,16 @@ ideologies = {
 		}
 		
 		faction_modifiers = {
-			faction_trade_opinion_factor = 0.50 #plus 50% trade opinion
 		}
-		ai_democratic = yes # uses the democratic AI behaviour
-	}
-
-
-	hispanism = {
-		
-		types = {
-			
-			hispanian_ideology = {
-			}
-		}
-		
-		dynamic_faction_names = {
-		}
-		
-		color = { 242  205  94 }
-		
-		war_impact_on_world_tension = 0.75		#Commie less threatening
-		faction_impact_on_world_tension = 0.5
-		
-		ai_communist = yes # uses the commie AI behaviour
-		
-		rules = {
-			can_force_government = no
-			can_send_volunteers = yes
-			can_puppet = yes
-		}
-		
-		modifiers = {
-			puppet_cost_factor = -0.3
-			increased_influence_factor = 0.3 #30% easier to influence
-		}
-		
-		faction_modifiers = {
-			
-		}
+		ai_neutral = yes # uses the neutral AI behaviour
 
 	}
 	
-	lusitanism = {
-		
-		types = {
-		
-			marxism = {
-			}
-		}
-		
-		dynamic_faction_names = {
-		}
-		
-		color = { 39  116  70 }
-		
-		war_impact_on_world_tension = 0.75		#Commie less threatening
-		faction_impact_on_world_tension = 0.5
-		
-		ai_communist = yes # uses the commie AI behaviour
-		
-		rules = {
-			can_force_government = no
-			can_send_volunteers = yes
-			can_puppet = yes
-		}
-		
-		modifiers = {
-			puppet_cost_factor = -0.3
-			increased_influence_factor = 0.3 #30% easier to influence
-		}
-		
-		faction_modifiers = {
-			
-		}
-
-	}
-
-	romanism = {
+	consentism = {
 	
 		types = {
 			
-			roman_ideology = {
+			dei_consentes = {
 			}
 		}
 		
@@ -144,66 +66,19 @@ ideologies = {
 		
 		modifiers = {
 			justify_war_goal_when_in_major_war_time = -0.80
+			trade_opinion_factor = 0.50 #plus 50% trade opinion
 		}
 
 		ai_fascist = yes # uses the fascist AI behaviour
 	}
 	
-	hellenism = {
+	etruscanism = {
 	
 		types = {
 		
-			macedonian_ideology  = {
+			etrusca_disciplina  = {
 			}
 			
-			lakedaimonan_ideology  = {
-			}
-			
-		}
-
-		dynamic_faction_names = {
-		}
-		
-		color = { 93  181  227 }
-		
-		
-		war_impact_on_world_tension = 0.25		#no major danger
-		faction_impact_on_world_tension = 0.1
-		
-		rules = {
-			can_force_government = yes
-			can_puppet = yes
-			can_send_volunteers = yes
-		}
-		
-		modifiers = {
-			#increased_influence_factor = 0.3 #30% easier to influence
-			generate_wargoal_tension = 0.5
-			join_faction_tension = 0.4
-			lend_lease_tension = 0.4
-			send_volunteers_tension = 0.4
-			guarantee_tension = 0.4
-			drift_defence_factor = -0.3	
-		}
-		
-		faction_modifiers = {
-		}
-
-		can_be_boosted = yes
-		can_collaborate = yes
-
-		ai_neutral = yes # 
-	}
-	
-	italianism = {
-	
-		types = {
-		
-			etruscian_ideology  = {
-			}
-			
-			latium_ideology  = {
-			}
 			
 		}
 
@@ -240,4 +115,178 @@ ideologies = {
 
 		ai_neutral = yes # 
 	}
+	
+	germanism = {
+	
+		types = {
+			
+			germanic_religion = {
+			}
+		}
+		
+		dynamic_faction_names = {
+		}
+		
+		color = { 167 11 299}
+		
+		rules = {
+			can_declare_war_on_same_ideology = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
+			can_guarantee_other_ideologies = yes
+		}
+		
+		war_impact_on_world_tension = -1.0
+		faction_impact_on_world_tension = -0.1
+		
+		modifiers = {
+			generate_wargoal_tension = 1.00
+			join_faction_tension = 0.80
+			lend_lease_tension = 0.50
+			send_volunteers_tension = 0.50
+			guarantee_tension = 0.25
+			take_states_cost_factor = 0.25
+			annex_cost_factor = 0.5
+			increased_influence_factor = 0.3 #30% easier to influence
+		}
+		
+		faction_modifiers = {
+		}
+		ai_neutral = yes # uses the neutral AI behaviour
+	}
+	
+	iberianism = {
+		
+		types = {
+		
+			iberian_religion = {
+			}
+		}
+		
+		dynamic_faction_names = {
+		}
+		
+		color = { 39  116  70 }
+		
+		rules = {
+			can_declare_war_on_same_ideology = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
+			can_guarantee_other_ideologies = yes
+		}
+		
+		war_impact_on_world_tension = -1.0
+		faction_impact_on_world_tension = -0.1
+		
+		modifiers = {
+			generate_wargoal_tension = 1.00
+			join_faction_tension = 0.80
+			lend_lease_tension = 0.50
+			send_volunteers_tension = 0.50
+			guarantee_tension = 0.25
+			take_states_cost_factor = 0.25
+			annex_cost_factor = 0.5
+			increased_influence_factor = 0.3 #30% easier to influence
+		}
+		
+		faction_modifiers = {
+		}
+		ai_neutral = yes # uses the neutral AI behaviour
+
+	}
+	
+	illyrianism = {
+	
+		types = {
+		
+			illyrian_religion  = {
+			}
+			
+			
+		}
+
+		dynamic_faction_names = {
+		}
+		
+		color = { 67  127  63 }
+		
+		
+		rules = {
+			can_declare_war_on_same_ideology = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
+			can_guarantee_other_ideologies = yes
+		}
+		
+		war_impact_on_world_tension = -1.0
+		faction_impact_on_world_tension = -0.1
+		
+		modifiers = {
+			generate_wargoal_tension = 1.00
+			join_faction_tension = 0.80
+			lend_lease_tension = 0.50
+			send_volunteers_tension = 0.50
+			guarantee_tension = 0.25
+			take_states_cost_factor = 0.25
+			annex_cost_factor = 0.5
+			increased_influence_factor = 0.3 #30% easier to influence
+		}
+		
+		faction_modifiers = {
+		}
+		ai_neutral = yes # uses the neutral AI behaviour
+	}
+
+	olympionism = {
+		
+			types = {
+			
+				macedonian_religion  = {
+				}
+				
+				lakedaimonan_religion  = {
+				}
+				
+			}
+
+			dynamic_faction_names = {
+			}
+			
+			color = { 93  181  227 }
+			
+			
+			war_impact_on_world_tension = 0.25		#no major danger
+			faction_impact_on_world_tension = 0.1
+			
+			rules = {
+				can_force_government = yes
+				can_puppet = yes
+				can_send_volunteers = yes
+			}
+			
+			modifiers = {
+				#increased_influence_factor = 0.3 #30% easier to influence
+				generate_wargoal_tension = 0.5
+				join_faction_tension = 0.4
+				lend_lease_tension = 0.4
+				send_volunteers_tension = 0.4
+				guarantee_tension = 0.4
+				drift_defence_factor = -0.3	
+			}
+			
+			faction_modifiers = {
+				faction_trade_opinion_factor = 0.50 #plus 50% trade opinion
+			}
+
+			can_be_boosted = yes
+			can_collaborate = yes
+
+			ai_neutral = yes # 
+		}
 }
